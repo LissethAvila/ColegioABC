@@ -1,0 +1,141 @@
+
+
+
+.menu{
+	float: top;
+	width: auto;
+	height: 40px;
+	background-color: #31B404;
+
+}
+
+ul, ol {
+	list-style: none;
+}
+
+
+/*Estilo rediseñados
+
+Menu Horizontal*/
+
+
+.nav2 li a{
+  background-color: #31B404;
+  border-left-color: #FFBF00;
+  border-left-style: groove;
+  border-left-width: 2.5px;
+  color: #FBFBEF;
+  font-family: Verdana;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 14px 30px ;
+  display: block;
+  
+}
+
+.nav2 li a:hover, a:active{
+  background-color: #FFBF00;
+  color:#31B404;
+  border-color: #FFffff;
+}
+
+.nav2 > li{
+ position: relative;
+  display: block;
+  margin-bottom: -3px;
+  
+}
+
+/* Menu Vertical*/
+
+.navVer li a{
+  background-color: #31B404;
+  border-left-color: #FFBF00;
+  border-left-style: groove;
+  border-left-width: 2.5px;
+  color: #FBFBEF;
+  font-family: Verdana;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 7px 8px ;
+  display: block;
+  
+}
+
+.navVer li a:hover, a:active{
+  background-color: #FFBF00;
+  color:#31B404;
+  border-color: #FFffff;
+}
+
+.navVer > li{
+ position: relative;
+  display: block;
+  margin-bottom: -3px;
+}
+  
+
+
+
+
+/* Barra Navegacion*/
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #FFBF00;
+  color:#31B404;
+  border-color: #FFffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FDFDFD;
+  text-decoration: none;
+}
+
+.colorMenu{
+  background-color: #FFDE7D;
+
+}
+
+.navbar-default{
+  height: auto;
+  
+
+}
+.navbar-default .navbar-brand {
+  color: #3E0561;
+  font-family: Lucida Console;
+  font-size: 25px;
+  font-variant:small-caps;
+}
+
+.navbar-default .navbar-brand2 {
+  color: black;
+  background-color: white;
+  font-family: Lucida Console;
+  font-size: 20px;
+  font-variant:small-caps;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand2:hover,
+.navbar-default .navbar-brand2:focus {
+  text-decoration: none;
+  list-style: none;
+}
+
+.dropdown{
+  color: #fff;
+}
+
+.navbar-default .dropdown-menu > li > a {
+  color: #fff;
+}
+
+.navbar-default .dropdown-menu > li > a:hover,
+.navbar-default .dropdown-menu > li > a:focus {
+  color: #31B404;
+  text-decoration: none;
+  background-color: #FFBF00;

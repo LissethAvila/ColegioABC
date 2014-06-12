@@ -1,0 +1,210 @@
+@import url('EstiloMenu.css');
+@import url('EstiloSlider.css');
+/* =================== Estilo Rejilla ================== */
+.colorM{
+	background-color: #81F79F;
+	
+
+}
+
+.colorL{
+	background-color: #5858FA;
+}
+
+.colorS{
+	background-color: #6E6E6E;
+}
+
+.colorMV{
+	background-color: #58FAD0;
+}
+
+.colorI{
+	background-color: #FFBF00;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.colorP{
+	background-color: #FAFAFA;
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.colorT{
+	background-color: #0101DF;
+}
+
+.colorImg{
+	background-color: #4B088A;
+}
+
+.colorD{
+	background-color: #8A0829;
+}
+
+.colorCont{
+	background-color: #D8D8D8;
+	border-radius: 5%;
+	border-color: white;
+	border-style: solid 10px;
+
+}
+
+/*================= Estilos Varios =====================*/
+body{
+	background-image: url(../img/Fondo5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner {
+	margin-top: -20px;
+	background-color: #31B404;
+	width: 100%;
+	height: 100px;
+	margin-bottom: 120px;
+	border-bottom-width: 2.5px;
+	border-bottom-style: groove;
+	border-bottom-color: white;
+
+
+	
+}
+
+.bannerimg{
+	width: 100%;
+	height: 100%;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	
+}
+
+.bannerh1{
+	color: white;
+	text-align: center;
+	vertical-align: center;
+	font-family: Verdana;
+	text-shadow: 3px 3px 5px #FFBF00;
+}
+
+.h1{
+	color: maroon;
+	font: 3em Comic Sans MS, sans-serif;
+	font-weight: bold;	
+}
+
+.tabla{
+	border-collapse: separate;
+	border-radius: 90;
+	text-align: center;
+}
+.pie {
+	text-align: center;
+}
+
+.pie img{
+	width: 20%;
+	height: 20%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.color_fondo{
+	background: orange;
+}
+
+.panel-body{
+	width: 100%;
+	margin-bottom: 4px;
+}
+
+/* Tabla Inicio*/
+
+.tablaDiv{
+	width: 100%;
+	height: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	
+}
+
+.tablaDiv > thead {
+	background-color: red;
+	color: white;
+	border-width: 15px;
+	border-style: solid;
+	border-color: red;
+	border-radius: 10%;
+	text-align: center;
+	outline-width: 5px;
+	outline-style: double;
+	outline-color: #FAFAFA;
+	box-shadow: 20px 200px 10px black;
+}
+
+.tablaDiv > thead > h4 {
+	font-size: 25px;
+	padding: 8px;
+}
+
+.tablaTD {
+	background-color: #FAFAFA;
+	padding: 15px 20px;
+	box-shadow: 5px 5px 10px black;
+}
+
+.tablaTD > ol{
+	list-style-type: circle;
+	color: black;
+
+}
+
+.gallerysize {
+	width: 300px;
+	height: 95%;
+}
+
+.Sesion {
+	text-align: center;
+	background-color: #31B404;
+	color: white;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #31B404;
+	border-radius: 10%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	box-shadow: 5px 5px 10px black;
+
+
+}
+
+.divSesion{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-top: -20px;
+	margin-bottom: 15px;
+	background-color: #FAFAFA;
+	padding-top: 10px;
+	position: relative;
+	z-index: 0;
+	box-shadow: 5px 5px 10px black;
+	
+}
+
+.tableSesion{
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 15px;
+
+	}
+.tdContacto{
+	text-color:#D7D6D6;
+	size: 50px;
+}
